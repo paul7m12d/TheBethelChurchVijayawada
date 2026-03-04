@@ -34,7 +34,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:1.2rem 4rem;display:
 .mobile-menu .m-cta{font-family:'Cinzel',serif;font-size:.85rem;letter-spacing:.2em;text-transform:uppercase;background:linear-gradient(135deg,var(--teal),var(--teal-light));padding:.9rem 2.2rem;border-radius:2px;margin-top:1rem}
 .mobile-divider{width:40px;height:1px;background:var(--border)}
 
-/* HERO */
+
 .hero-img {
   position: absolute;
   right: -60%;
@@ -43,7 +43,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:1.2rem 4rem;display:
   width: 100vm;
   object-fit: contain;
   object-position: bottom right;
-  mix-blend-mode: lighten;  /* removes black background from PNG */
+  mix-blend-mode: lighten;  
   pointer-events: none;
   z-index: 2;
 }
@@ -55,7 +55,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:1.2rem 4rem;display:
   width: 50em;
   object-fit: contain;
   object-position: bottom right;
-  mix-blend-mode: lighten;  /* removes black background from PNG */
+  mix-blend-mode: lighten;  
   pointer-events: none;
   z-index: 2;
 }
@@ -72,7 +72,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:1.2rem 4rem;display:
 .hdesc{font-family:'Cormorant Garamond',serif;font-size:1.35rem;font-style:italic;color:var(--muted);max-width:520px;margin-bottom:2.8rem;line-height:1.5;opacity:0;animation:fup 1s .8s forwards}
 .hact{display:flex;gap:1rem;flex-wrap:wrap;opacity:0;animation:fup 1s 1s forwards}
 
-/* Trust bar – DESKTOP: absolute at the bottom of the hero */
+/* Trust bar – DESKTOP: absolute at the bottom */
 .htrust-desktop{position:absolute;bottom:2.5rem;left:0;right:0;display:flex;justify-content:center;gap:4rem;z-index:2;opacity:0;animation:fup 1s 1.4s forwards}
 .htrust-desktop .ti{text-align:center}
 .htrust-desktop .tn2{font-family:'Cormorant Garamond',serif;font-size:2rem;font-weight:600;color:var(--aqua);display:block;line-height:1}
@@ -239,7 +239,7 @@ footer{background:var(--midnight);border-top:1px solid var(--border);padding:4re
   .sbanner{padding:1.2rem 1.5rem;gap:1rem;flex-direction:column;align-items:flex-start}
   .ssep{display:none}
 
-  /* Hero: shrink height since trust bar is no longer inside */
+  
   #hero{min-height:auto;padding-bottom:3.5rem}
   .hc{padding:0 1.5rem;margin-top:5rem}
   .hact{flex-direction:column;align-items:stretch;}
@@ -310,7 +310,7 @@ footer{background:var(--midnight);border-top:1px solid var(--border);padding:4re
   </button>
 </nav>
 
-<!-- HERO -->
+
 <section id="hero">
   <div class="hbg"></div><div class="hglow"></div><div class="hray"></div>
   <div class="hc">
@@ -486,6 +486,7 @@ document.getElementById('pb').addEventListener('click',function(){const n=docume
 </script>
 </body>
 </html>
+
 
 
 

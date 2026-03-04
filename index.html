@@ -404,9 +404,9 @@ footer{background:var(--midnight);border-top:1px solid var(--border);padding:4re
   <div class="sermtop reveal"><div><span class="slabel">Sermons &amp; Teaching</span><h2 class="stitle">The Word<br>That Transforms</h2></div><a href="https://www.youtube.com/@EnoshKumarVasamsetti/videos "  target="_blank"class="slink" style="margin-bottom:.5rem">View All Sermons</a></div>
 
   <div class="sermgrid">
-    <iframe width="420" height="250" src="https://www.youtube.com/embed/Or8wzau3f3I?si=c0r9QF73s41nlMli&amp;start=2833" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen><span><h3 class="semtitle">The God Who Restores What Seemed Lost</h3><div class="semmeta"><span>Pastor Enosh Kumar</span></span></iframe>
-    <iframe width="420" height="250" src="https://www.youtube.com/embed/ZqJc3e_4NYM?si=94BlFgbJ0b5-uY5k&amp;start=2833" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    <iframe width="420" height="250" src="https://www.youtube.com/embed/-3dbGIGKPYs?si=Sy0EMLSz_3YwFmEY&amp;start=2833" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
+    <iframe width="75%" height="250" src="https://www.youtube.com/embed/Or8wzau3f3I?si=c0r9QF73s41nlMli&amp;start=2833" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen><span><h3 class="semtitle">The God Who Restores What Seemed Lost</h3><div class="semmeta"><span>Pastor Enosh Kumar</span></span></iframe>
+    <iframe width="75%" height="250" src="https://www.youtube.com/embed/ZqJc3e_4NYM?si=94BlFgbJ0b5-uY5k&amp;start=2833" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe width="75%" height="250" src="https://www.youtube.com/embed/-3dbGIGKPYs?si=Sy0EMLSz_3YwFmEY&amp;start=2833" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
     
   </div>
 </section>
@@ -472,9 +472,6 @@ footer{background:var(--midnight);border-top:1px solid var(--border);padding:4re
 </footer>
 
 <script>
-  window.onload = function() {
-  window.scrollTo(0, 0);
-}
 const obs=new IntersectionObserver(e=>{e.forEach(x=>{if(x.isIntersecting)x.target.classList.add('visible')})},{threshold:.12});
 document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
 window.addEventListener('scroll',()=>{const n=document.getElementById('mn');if(window.scrollY>80){n.style.background='rgba(5,13,26,.97)';n.style.boxShadow='0 1px 0 rgba(52,212,200,.1)'}else{n.style.background='linear-gradient(to bottom,rgba(5,13,26,.98) 0%,rgba(5,13,26,0) 100%)';n.style.boxShadow='none'}});
@@ -486,6 +483,7 @@ document.getElementById('pb').addEventListener('click',function(){const n=docume
 </script>
 </body>
 </html>
+
 
 
 
